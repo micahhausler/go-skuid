@@ -1,0 +1,120 @@
+Go, Skuid, Go
+An intro to Go
+12:00 1 Jul 2016
+
+Micah Hausler
+SRE, Skuid
+micah@skuid.com
+https://www.skuid.com
+@micahhausler
+
+* Language Highlights
+
+- Easy to learn
+- Short compile times (compared to C and friends)
+- Created to take advantage of multiple cores
+- Fast
+- Static Binaries
+- Cross Platform
+- Opinionated formatting
+- Benchmarking
+- Testing
+- Profiling (CPU, memory, blocking)
+- Race detector
+
+* Standard Library Highlights
+
+- Crypto
+- Compression
+- Database interfaces
+- JSON encoding
+- Documentation
+- HTTP server
+- HTTP router
+- HTTP cookies
+- HTML Templating
+
+* Hello World
+
+.code hello.sh
+.play hello.go
+
+* Packages
+
+.play packages.go
+
+- Packages are just a collection of `.go` files in a folder
+
+* Regular Function Call
+
+.play regular.go
+
+* Concurrency
+
+.play concurrency.go
+
+* Concurrency, again
+
+.play concurrency2.go
+
+* Channels
+
+.play channels.go
+
+* Channels (continued)
+
+.play channels2.go
+
+* Structs
+
+.play structs.go /START OMIT/,/END OMIT/
+
+* Methods
+
+.play methods.go
+: Go automatically handles conversion between values
+: and pointers for method calls. You may want to use
+: a pointer receiver type to avoid copying on method
+: calls or to allow the method to mutate the
+: receiving struct.
+
+* Interfaces
+
+.code interfaces.go /START SHOW OMIT/,/END SHOW OMIT/
+
+* Interfaces (continued)
+
+.play interfaces.go /START RUN OMIT/,/END RUN OMIT/
+
+* Working with JSON
+
+.play json.go /START OMIT/,/END OMIT/
+
+* Encoding to JSON
+
+.play json_marshal.go /^func main/,/^}/
+
+* Making a web server
+
+.play webserver.go
+
+* Recomended Tutorials & Reading
+
+.link https://tour.golang.org/ Go Tour
+- The go language tutorial
+.link https://gobyexample.com/ Go by Example
+- A helpful series of walkthroughs with real examples
+.link http://golang-challenge.org/ Go Challenge
+- Fun, simple problems that get you using go
+.link https://golang.org/doc/faq Go FAQ
+- Answer a lot of common questions about Go
+
+.link https://gist.github.com/ungerik/3731476 Why Choose Go?
+- Teams that have chosen Go
+
+* Recomended Reading
+
+The Go Programming Language
+
+.image http://www.gopl.io/cover.png _ 400
+
