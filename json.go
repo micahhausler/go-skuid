@@ -6,8 +6,8 @@ import "fmt"
 import "encoding/json"
 
 var data = []byte(`{"id": "lightning", "folderId": "skuidother",
-	"js": [{"resource": "LightningBuilderJS",
-		    "namespace": "skuid"}]}`)
+                    "js": [{"resource": "LightningBuilderJS",
+					"namespace": "skuid", "other": "parameter"}]}`)
 
 type Resource struct {
 	Resource  string `json:"resource"`

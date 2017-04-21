@@ -1,6 +1,6 @@
 Go, Skuid, Go
 An intro to Go
-12:00 1 Jul 2016
+12:00 21 Apr 2017
 
 Micah Hausler
 SRE, Skuid
@@ -85,6 +85,10 @@ https://www.skuid.com
 * Interfaces (continued)
 
 .play interfaces.go /START RUN OMIT/,/END RUN OMIT/
+
+* Testing
+
+.play -edit interface_test.go /START OMIT/,/END OMIT/
 
 * Working with JSON
 

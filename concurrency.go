@@ -6,7 +6,7 @@ import (
 )
 
 func f(n int) {
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 100; i++ {
 		fmt.Printf("%d:%d\n", n, i)
 	}
 }
