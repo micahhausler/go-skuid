@@ -47,11 +47,11 @@ https://www.skuid.com
 
 * Regular Function Call
 
-.play regular.go
+.play -edit regular.go
 
 * Concurrency
 
-.play concurrency.go
+.play -edit concurrency.go
 
 * Concurrency, again
 
@@ -59,15 +59,15 @@ https://www.skuid.com
 
 * Channels
 
-.play channels.go
+.play -edit channels.go
 
 * Channels (continued)
 
-.play channels2.go
+.play -edit channels2.go
 
 * Structs
 
-.play structs.go /START OMIT/,/END OMIT/
+.play -edit structs.go /START OMIT/,/END OMIT/
 
 * Methods
 
@@ -80,11 +80,11 @@ https://www.skuid.com
 
 * Interfaces
 
-.code interfaces.go /START SHOW OMIT/,/END SHOW OMIT/
+.code -edit interfaces.go /START SHOW OMIT/,/END SHOW OMIT/
 
 * Interfaces (continued)
 
-.play interfaces.go /START RUN OMIT/,/END RUN OMIT/
+.play -edit interfaces.go /START RUN OMIT/,/END RUN OMIT/
 
 * Testing
 
@@ -92,15 +92,19 @@ https://www.skuid.com
 
 * Working with JSON
 
-.play json.go /START OMIT/,/END OMIT/
+.play -edit json.go /START OMIT/,/END OMIT/
 
 * Encoding to JSON
 
-.play json_marshal.go /^func main/,/^}/
+.play -edit json_marshal.go /^func main/,/^}/
 
 * Making a web server
 
 .play webserver.go
+
+* Making a web server
+
+.play webserver2.go /START OMIT/,/END OMIT/
 
 * Recomended Tutorials & Reading
 
